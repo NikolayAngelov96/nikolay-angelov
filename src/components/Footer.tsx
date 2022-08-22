@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="p-32 flex flex-col gap-3 items-center bg-gray-200">
+    <footer className="p-24 flex flex-col gap-3 items-center bg-gray-200">
       &copy; {new Date().getFullYear()} Nikolay Angelov
       <small>
         🚀 Built with{" "}
