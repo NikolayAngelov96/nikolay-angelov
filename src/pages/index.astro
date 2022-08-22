@@ -7,10 +7,24 @@ import Layout from '../layouts/Layout.astro';
 
 	<main>
 		<section class="">
-			<h3 class="text-2xl">The personal site of</h3>
-			<h1 class=" text-5xl">Nikolay Angelov</h1>
+			<h1 class="text-6xl leading-tight">
+				Hi
+				<br />
+				I'm <span class="gradient-text">Nikolay</span>,
+				<br />
+				web developer
+			</h1>
 		</section>
 		
 
 	</main>
 </Layout>
+
+<style>
+	.gradient-text {
+		font-size: 72px;
+		background: -webkit-linear-gradient(#4f39fa, #da62c4);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+</style>
