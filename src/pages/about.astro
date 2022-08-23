@@ -1,0 +1,18 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ProfilePicture from "../components/ProfilePicture.astro";
+
+const aboutPage = await Astro.glob('../content/*.md');
+
+const markdown = aboutPage[0];
+---
+
+<Layout title="About me">
+    <section class="mx-auto">
+        <ProfilePicture />
+        <div class="text-center mx-auto prose">
+            <markdown.Content></markdown.Content>
+
+        </div>
+    </section>
+</Layout>
