@@ -1,0 +1,25 @@
+---
+import { getSlugFromPathname } from '../utils/helpers';
+import Layout from '../layouts/Layout.astro';
+
+export interface Props {
+    project: any
+}
+
+const {project} = Astro.props
+
+console.log(project.frontmatter.title)
+
+const url = '/projects/' + getSlugFromPathname(project.file);
+
+---
+
+<Layout title={project.frontmatter.title}>
+    <a href={url}>
+        <div>
+            {project.frontmatter.title}
+
+            <button>Show more</button>
+        </div>
+    </a>
+</Layout>
