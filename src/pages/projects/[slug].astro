@@ -1,0 +1,26 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { getSlugFromPathname } from '../../utils/helpers';
+
+export async function getStaticPaths() {
+    const allPosts = await Astro.glob('../../content/projects/*.md');
+
+    return allPosts.map(post => {
+        const slug = getSlugFromPathname(post.file);
+
+        return {
+            params: { slug },
+            props: { post }
+        }
+    })
+}
+
+const { post } = Astro.props;
+---
+
+<Layout title={post.frontmatter.title}>
+    <div class="prose mx-auto text-left">
+        <post.Content></post.Content>
+
+    </div>
+</Layout>
