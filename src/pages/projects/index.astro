@@ -1,0 +1,15 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import ProjectCard from "../../components/ProjectCard.astro";
+
+const data = await Astro.glob('../../content/projects/*.md');
+
+
+---
+
+<Layout title="Projects list">
+    <h2 class="text-2xl">Projects list</h2>
+    <div class="">
+        {data.map(p => <ProjectCard project={p} />)}
+    </div>
+</Layout>
