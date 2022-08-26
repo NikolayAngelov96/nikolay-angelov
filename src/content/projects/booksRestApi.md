@@ -1,6 +1,7 @@
 ---
 title: "Books REST API"
 description: "Service created with Express, SQLite and Prisma ORM"
+imageUrl: "/images/rest-api.png"
 ---
 
 ## Books Server

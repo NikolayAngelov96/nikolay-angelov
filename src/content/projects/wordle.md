@@ -1,6 +1,7 @@
 ---
 title: "Wordle Clone"
-imageUrl: "/images/wordle.jpg"
+description: "Created with HTML, CSS and Vanilla JavaScript"
+imageUrl: "/images/wordle.png"
 ---
 
 # Wordle clone
