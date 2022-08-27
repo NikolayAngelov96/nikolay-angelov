@@ -12,4 +12,7 @@ const data = await Astro.glob('../../content/projects/*.md');
     <div class="grid grid-cols-3">
         {data.map(p => <ProjectCard project={p} />)}
     </div>
+    <div class="py-8">
+        <a href="/" class="hover:text-blue-400">{"<- Back to Home"}</a>
+    </div>
 </Layout>

@@ -21,6 +21,9 @@ const { post } = Astro.props;
 <Layout title={post.frontmatter.title}>
     <div class="prose mx-auto text-left">
         <post.Content></post.Content>
+    </div>
 
+    <div class="py-8">
+        <a href="/projects" class="hover:text-blue-400">{"<- Back to Projects"}</a>
     </div>
 </Layout>
