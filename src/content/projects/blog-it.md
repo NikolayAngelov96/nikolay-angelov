@@ -6,6 +6,8 @@ imageUrl: "https://user-images.githubusercontent.com/103751145/177942348-30b7487
 
 # Blog It
 
+Link to [Github repo](https://github.com/NikolayAngelov96/blog-it)
+
 Blog it is full-stack **Social Bloging Platform** inspired by [Dev.to](https://dev.to/).
 
 Everyone can access and read all **published** blog posts.

@@ -6,6 +6,8 @@ imageUrl: "/images/wordle.png"
 
 # Wordle clone
 
+Link to [Github repo](https://github.com/NikolayAngelov96/wordle-clone)
+
 [Wordle](https://www.nytimes.com/games/wordle/index.html) is a web-based word game, and
 this is how I implemented it with plain **HTML, CSS, JavaScript**.
 

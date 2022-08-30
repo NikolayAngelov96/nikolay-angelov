@@ -6,6 +6,8 @@ imageUrl: "/images/rest-api.png"
 
 ## Books Server
 
+Link to [Github repo](https://github.com/NikolayAngelov96/books-rest-api)
+
 ### 🛠 Libraries and tools used
 
 - [Express](https://expressjs.com/)
